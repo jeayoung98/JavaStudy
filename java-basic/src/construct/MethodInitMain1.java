@@ -1,8 +1,7 @@
 package construct;
 
-import java.util.Arrays;
-
 public class MethodInitMain1 {
+
     public static void main(String[] args) {
         MemberInit member1 = new MemberInit();
         member1.name = "user1";
@@ -16,11 +15,8 @@ public class MethodInitMain1 {
 
         MemberInit[] members = {member1, member2};
 
-        for (MemberInit member : members) {
-            System.out.printf("이름 : %s 나이 : %d 성적 : %d\n",member.name,member.age,member.grade);
+        for (MemberInit s : members) {
+            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
         }
-
     }
-
-
 }

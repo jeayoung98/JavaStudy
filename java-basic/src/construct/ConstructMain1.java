@@ -7,9 +7,8 @@ public class ConstructMain1 {
 
         MemberConstruct[] members = {member1, member2};
 
-        for (MemberConstruct member : members) {
-            System.out.println("생성자 호출 name = " + member.name + ", age = " + member.age + ", grade = "+member.grade);
+        for (MemberConstruct s : members) {
+            System.out.println("이름:" + s.name + " 나이:" + s.age + " 성적:" + s.grade);
         }
-
     }
 }

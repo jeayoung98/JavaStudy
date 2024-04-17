@@ -1,8 +1,7 @@
 package ref.ex;
 
-import class1.ex.ProductOrder;
-
 public class ProductOrderMain2 {
+
     public static void main(String[] args) {
         ProductOrder[] orders = new ProductOrder[3];
         orders[0] = createOrder("두부", 2000, 2);
@@ -11,7 +10,7 @@ public class ProductOrderMain2 {
 
         printOrders(orders);
         int totalAmount = getTotalAmount(orders);
-        System.out.println("총 결제 금액 : " + totalAmount);
+        System.out.println("총 결제 금액: " + totalAmount);
     }
 
     static ProductOrder createOrder(String productName, int price, int quantity) {
@@ -24,7 +23,7 @@ public class ProductOrderMain2 {
 
     static void printOrders(ProductOrder[] orders) {
         for (ProductOrder order : orders) {
-            System.out.printf("상품명 : %s, 가격 : %d, 수량 : %d\n", order.productName, order.price, order.quantity);
+            System.out.println("상품명: " + order.productName + ", 가격: " + order.price + ", 수량: " + order.quantity);
         }
     }
 

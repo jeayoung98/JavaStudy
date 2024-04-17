@@ -1,21 +1,17 @@
 package class1;
 
-import java.util.Arrays;
-
 public class ClassStart1 {
+
     public static void main(String[] args) {
-        int[] studentScore = {90, 80};
-        String[] studentName ={"학생1","학생2"};
-        int[] studentAge = {15, 16};
+        String student1Name = "학생1";
+        int student1Age = 15;
+        int student1Grade = 90;
 
+        String student2Name = "학생2";
+        int student2Age = 16;
+        int student2Grade = 80;
 
-        for (int i = 0; i < studentName.length; i++) {
-            System.out.printf("이름 : %s 나이 : %d 성적 : %d", studentName[i], studentAge[i], studentScore[i]);
-            System.out.println();
-
-        }
-
-
-
+        System.out.println("이름:" + student1Name + " 나이:" + student1Age + " 성적:" + student1Grade);
+        System.out.println("이름:" + student2Name + " 나이:" + student2Age + " 성적:" + student2Grade);
     }
 }

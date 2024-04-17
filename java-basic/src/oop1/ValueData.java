@@ -5,6 +5,6 @@ public class ValueData {
 
     void add() {
         value++;
-        System.out.println("숫자 증가 value = " +value);
+        System.out.println("숫자 증가 value=" + value);
     }
 }
