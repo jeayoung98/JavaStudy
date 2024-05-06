@@ -1,4 +1,4 @@
-package lang.test;
+package lang.object.test;
 
 public class RectangleMain {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package lang.test;
-
-import java.util.Objects;
+package lang.object.test;
 
 public class Rectangle {
     private int width;
